@@ -42,7 +42,7 @@ def map(lattitude,longitude):
     popup='Your Marker Popup Text',  # Replace with your desired popup text
     icon=folium.Icon(color='red', icon='info-sign')  # Customize the marker icon
     ).add_to(mymap)
-    mymap.save("my_map.html")
+    mymap.save("./static/map.html")
 
 
 
